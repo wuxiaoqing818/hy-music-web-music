@@ -1,0 +1,32 @@
+yarn add craco-less
+yarn add antd    
+yarn add @craco/craco
+yarn add prop-types
+yarn add classnames
+yarn add moment
+yarn add redux-thunk
+yarn add axios
+yarn add redux-saga
+yarn add normalize.css  css重置样式
+yarn add react-router-config
+yarn add react-router-dom
+yarn add styled-components
+
+
+
+git操作：
+ git config --global user.name "wuxiaoqing"
+
+
+git config -global user.email "wuxiaoqing_818@163.com"
+
+ssh-keygen -t rsa -C "wuxiaoqing_818@163.com"
+
+git remote add origin git@github.com:wuxiaoqing818/hy-music-web-music.git            设置远程仓库连接路径
+git remote set-url origin https://github.com/wuxiaoqing818/collection-manage.git        删除已有连接远程仓库地址  再设置新的
+
+git checkout -b 分支名字    创建并切换到分支
+git push origin  分支名字    推送该分支创建完毕
+git checkout  分支名  切换分支
+git merge  分支名        将目的分支合并到当前分支
+
