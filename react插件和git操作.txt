@@ -18,7 +18,7 @@ git操作：
  git config --global user.name "wuxiaoqing"
 
 
-git config -global user.email "wuxiaoqing_818@163.com"
+git config --global user.email "wuxiaoqing_818@163.com"
 
 ssh-keygen -t rsa -C "wuxiaoqing_818@163.com"
 
@@ -27,6 +27,7 @@ git remote set-url origin https://github.com/wuxiaoqing818/collection-manage.git
 
 git checkout -b 分支名字    创建并切换到分支
 git push origin  分支名字    推送该分支创建完毕
+git branch --set-upstream-to=origin/分支名字     本地分支与远程分支关联  就可以直接git pull  git push  省去origin 分支名字
 git checkout  分支名  切换分支
 git merge  分支名        将目的分支合并到当前分支
 
